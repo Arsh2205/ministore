@@ -1,0 +1,31 @@
+.sales {
+    background-color: #49557e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.sales-text {
+    padding-left: 40px;
+}
+
+.sales-text p {
+    font-size: 32px;
+}
+
+.sales-text h1 {
+    font-size: 5vw;
+    font-weight: 300;
+}
+
+.sales img {
+    width: 100%;
+    height: auto;
+}
+
+@media(max-width:992px) {
+    .sales {
+        flex-direction: column;
+    }
+}

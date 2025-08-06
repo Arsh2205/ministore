@@ -1,0 +1,28 @@
+.services {
+    margin: 60px;
+}
+
+.services-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    flex-basis: 20%;
+    text-align: center;
+}
+
+.services-text {
+    font-size: 1.5vw;
+    text-transform: uppercase;
+}
+
+@media(max-width:992px) {
+    .services-data {
+        flex-direction: column;
+    }
+
+    .col {
+        margin-bottom: 30px;
+    }
+}

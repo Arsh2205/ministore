@@ -1,0 +1,47 @@
+.posts {
+    margin-top: 50px;
+}
+
+.posts-text {
+    margin-bottom: 20px;
+}
+
+.posts-text h2 {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.posts .read-blog {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.post-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.posts-cols {
+    flex-basis: 24%;
+}
+
+.posts-image img {
+    width: 100%;
+}
+
+.post-date {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.post-title {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+@media(max-width:992px) {
+    .post-data {
+        flex-direction: column;
+    }
+}
